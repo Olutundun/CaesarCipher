@@ -16,7 +16,7 @@ namespace CaesarCipher
             char[] decryptedMessage = new char[secretMessage.Length];
             //Console.WriteLine(encryptedMessage);
             Encrypt(alphabet, secretMessage, encryptedMessage);
-            // Decrypt(alphabet, secretMessage, decryptedMessage);
+           // Decrypt(alphabet, secretMessage, decryptedMessage);
 
         }
         //loop through each secretmsg char 
